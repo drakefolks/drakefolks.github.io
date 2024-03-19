@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Drake's Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Drake</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+     <!-- main banner -->
+     <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Howdy Folks!</h2>
+                <p class="hero_desc">My name is Drake Folks; I am a computer science student from Idaho.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about" class="section-border">
+        <div class="container black mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="about col-lg-8">
+                    <p> 
+                        I am a highly motivated individual that is constantly working for self-improvement. I thrive in fast-paced workplaces and am continuously looking for new tasks to conquer. I believe that ongoing learning and progress are critical to long-term success. To remain competitive in my field, I am continually upgrading my skill set and knowledge base. I am committed to challenging myself to be the best I can be.
+                    </p>
+                    
+                    <p>
+                        Currently, I am in the final sprint of finishing my Bachelor's degree. I'm in my last semester, and could not be more excited to finish! While I've been attending Western Governor's University, I have been able to be a part of a fantastic team at Idaho National Laboratory. I have been interning with INL for almost a year now, and I cannot even begin to express how much I have learned! The environment is terrific, only bested by the amazing people I have had the privilege of working with.
+                    </p>
+
+                    <p>
+                        I have been passionate about computers and technology for most of my life. If I had to pinpoint a starting inspiraiton, I would say that it was when I got my first Nintendo DS. That little device was earth-shattering when I was young; the ability to play so many games on just one device! From that point I went on to repairing gaming consoles during high school as a side hustle and building computers in my free time for friends and family. Then I started college; initially I was going for chemical engineering. I realized by the start of my second semester that I really wasn't into that, and I realized something; I have always like computers, so why not try computer science? So, 2 weeks into the new semester I changed my major to Computer Science and never looked back. I took my first computer science class and instantly fell in love with the subject.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills" class="section-border">
+        <div class="container black mt-4 pt-4">
+            <h1 class="text-center">Skills</h1>
+            <!--top row-->
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="skillsIcon fas fa-clock"></i>
+                            <h4 class="card-title mt-1">Time Management</h4>
+                            <p class="card-text mt-2">
+                                I excel at time management, priority identification, and priority balancing in order to ensure efficient and effective completion of tasks. 
+                                I am confident in my ability to meet deadlines and deliver high-quality work.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='skillsIcon far fa-check-circle'></i>
+                            <h4 class="card-title mt-1">Communication</h4>
+                            <p class="card-text mt-2">
+                                I strive to maintain transparent communication and collaboration with team members throughout the workplace. 
+                                I can collaborate with team members of all backgrounds and personalities respectfully and professionally, fostering a positive and inclusive work environment.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='skillsIcon fas fa-layer-group'></i>
+                            <h4 class="card-title mt-1">Full Stack Development</h4>
+                            <p class="card-text mt-2">
+                                I have experience with full-stack development. 
+                                I am capable of creating user interfaces that are both responsive and welcoming. 
+                                I can connect the front-end and back-end via API calls triggered by user input, which then contact the underlying database to retrieve or store data.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!--bottom row-->
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="skillsIcon bi bi-badge-vr-fill"></i>
+                            <h4 class="card-title mt-1">Virtual/Mixed Reality Development</h4>
+                            <p class="card-text mt-2">
+                                I have developed several mixed reality applications in the Unity game engine. 
+                                Most of the applications were built for the Microsoft Holo Lens 2 headset and the Varjo XR-3 headset. 
+                                The applications ranged from educational simulations to interactive training experiences.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='skillsIcon bi bi-unity'></i>
+                            <h4 class="card-title mt-1">Unity Development</h4>
+                            <p class="card-text mt-2">
+                                I have been actively developing games in Unity for just over a year. 
+                                These projects have ranged from classic retro games to immersive mixed-reality representations of nuclear hotcells. 
+                                I am well versed in C# development, Unity's workflow, and correcting various issues that arise when developing with Unity behind enterprise firewalls.
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='skillsIcon bi bi-robot'></i>
+                            <h4 class="card-title mt-1">Machine Learning</h4>
+                            <p class="card-text mt-2">
+                                I created numerous machine learning models in Python with Tensorflow and Pytorch. 
+                                I have created models that can anticipate stock prices, identify photos, and evaluate live video feeds to determine actions. 
+                                I also developed several generative adversarial networks (GANs) to produce syntehtic data for my LSTM models.
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio" class="section-border">
+        <div class="container black mt-4 pt-4">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/pong.gif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Pong</h4>
+                            <p class="card-text">The classic arcade game re-created in Unity.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/drakefolks/Pong" class="btn btn-success">Check it out on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/snake.gif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Snake</h4>
+                            <p class="card-text">The other classic arcade game re-created in Unity.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/drakefolks/Snake" class="btn btn-success">Check it out on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/javaChess.gif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Java Chess</h4>
+                            <p class="card-text">The historic game chess, re-created in Java!</p>
+                            <div class="text-center">
+                                <a href="https://github.com/drakefolks/Java-Chess" class="btn btn-success">Check it out on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/gradientDescent.svg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Machine Learning</h4>
+                            <p class="card-text">I've been working on a Udemy course called 'Deep Understanding of Deep Learning. This repo contains my progress!</p>
+                            <div class="text-center">
+                                <a href="https://github.com/drakefolks/Deep-Understanding-Deep-Learning-Udemy" class="btn btn-success">Check it out on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/javaGUI.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Java Scheduling Assistant</h4>
+                            <p class="card-text">This was an in-depth project for my Bachelors. It included front-end (UI), API via the Java JDBC, and back-end via a remote MySQL DB.</p>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-success">Demo available upon request</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/crane.gif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Crane Signal Recognition AI</h4>
+                            <p class="card-text">I trained an LSTM machine learning model to recognize hand signals performed by crane operators!</p>
+                            <div class="text-center">
+                                <a href="#contact" class="btn btn-success">Demo available upon request</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact" class="section-border">
+        <div class="container black">
+            <h1 class="text-center mb-5">Contact Info</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-1 contact-item">
+                    <a href="mailto:drakefolks@gmail.com" class="btn btn-success">Email</a>
+                </div>
+                <div class="col-md-1 contact-item">
+                    <a href="https://github.com/drakefolks" class="btn btn-success">Github</a>
+                </div>
+                <div class="col-md-1 contact-item">
+                    <a href="https://www.linkedin.com/in/drake-folks-a885bb225/" class="btn btn-success">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+</body>
+</html>
