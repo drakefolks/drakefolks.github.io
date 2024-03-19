@@ -21,6 +21,7 @@ body {
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    width: 100%;
 }
 .hero_desc {
     font-size: 2rem;
@@ -32,6 +33,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 /* about skills image css */
 .imageAboutPage {
@@ -94,6 +97,9 @@ body {
     padding-bottom: 10rem;
     text-align: center;
     background-color: #1e1e1e;
+}
+.contact-item{
+    padding: 10px;
 }
 .section-border {
     border-top: 1px solid #ced4da; /* border color */
